@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (large binaries)
+*.keras
+*.h5
+*.pkl
+
+# Data files
+*.csv
+data/
+
+# API Keys and secrets
+*keys.txt
+.env
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
