@@ -44,7 +44,7 @@ class CandleBuilder:
             pred_price = self.shared["predictions"][-1]
             pred_ts = self.shared["timestamps"][-1]
 
-        logger.info(f"🔮 NEXT CANDLE PREDICTION ({pred_ts}): {pred_price:.2f}")
+        logger.info(f" NEXT CANDLE PREDICTION ({pred_ts}): {pred_price:.2f}")
 
     def on_data(self, wsapp, message):
         try:
