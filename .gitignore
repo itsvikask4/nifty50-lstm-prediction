@@ -15,15 +15,7 @@ env/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# Model files (large binaries)
-*.keras
-*.h5
-*.pkl
-
-# Data files
-*.csv
-data/
+/
 
 # API Keys and secrets
 *keys.txt
